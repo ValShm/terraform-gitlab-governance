@@ -2,11 +2,13 @@
 
 This modudle helps setup a governance to a Gitlab organization.
 
+This module is part of the collection of Terraform modules used in Cuemby. They are constantly updated primary for our internal team and of course help from the community is always welcome.
+
 ## How to use it.
 
 ```terraform
 module "gitlab" {
-  source = "../../"
+  source = "cuemby/gitlab-governance"
 
   gitlab_token = var.gitlab_token
 
