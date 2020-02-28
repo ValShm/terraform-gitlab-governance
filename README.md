@@ -8,7 +8,7 @@ This module is part of the collection of Terraform modules used in Cuemby. They 
 
 ```terraform
 module "gitlab" {
-  source = "cuemby/gitlab-governance"
+  source = "cuemby/governance/gitlab"
 
   gitlab_token = var.gitlab_token
 
