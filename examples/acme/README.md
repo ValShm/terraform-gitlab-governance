@@ -2,7 +2,8 @@
 
 ```terraform
 module "gitlab" {
-  source = "../../"
+  source  = "cuemby/governance/gitlab"
+  version = "~> 0.1"
 
   gitlab_token = var.gitlab_token
 
